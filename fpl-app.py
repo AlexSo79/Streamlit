@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-df = pd.read_csv(r"C:\Users\aless\Desktop\Visual_Studio_Code\Streamlit\fpldata.csv")
+df = pd.read_csv(r"C:\Users\aless\Desktop\Visual_Studio_Code\Fantasy_Football_Data_Viz\fpldata.csv")
 
 df['90s'] = df['minutes']/90
 calc_elements = ['goals','assists','points']
